@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 ## Credential
-Create your own .env file with those information below:
+Create your own `.env` file with those information below:
 ```shell 
 API_TYPE = "azure"
 API_VERSOIN = "2023-05-15"

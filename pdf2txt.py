@@ -11,7 +11,7 @@ pdfreader = PyPDF2.PdfReader(pdffileobj)
 x = len(pdfreader.pages)
 
 # create a variable that will select the selected number of pages
-with open('Paper.txt', 'w') as f:
+with open('localdata/Paper.txt', 'w') as f:
     for i in range(x):
         pageobj = pdfreader.pages[i]
         text = pageobj.extract_text()
